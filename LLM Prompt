@@ -1,0 +1,21 @@
+const buildPrompt = (data) => `
+You are a highway cost estimation assistant.
+
+Project:
+- Length: ${data.length} km
+- Lanes: ${data.lanes}
+- Terrain: ${data.terrain}
+- Pavement Type: ${data.pavement}
+- Location: ${data.location}
+- Soil Type: ${data.soil || "Standard"}
+
+Provide:
+- Earthwork quantity
+- Granular sub-base
+- Base course (WMM/WBM)
+- Surface course (Bituminous/Concrete)
+- Total cost (approx, in INR/USD)
+- Table format
+
+Use MoRTH/IRC standards and market rates from 2024.
+`;
