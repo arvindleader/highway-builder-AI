@@ -1,0 +1,10 @@
+Highway Cost Estimate:
+
+| Item                | Quantity      | Unit     | Unit Rate (INR) | Total Cost (INR) |
+|---------------------|---------------|----------|------------------|------------------|
+| Earthwork           | 50000         | m³       | 150              | 7,500,000        |
+| Granular Sub-base   | 40000         | m²       | 300              | 12,000,000       |
+| Bituminous Surface  | 40000         | m²       | 600              | 24,000,000       |
+| Road Markings       | 10            | km       | 50,000           | 500,000          |
+
+**Estimated Total Cost**: ₹44,000,000 (INR)
